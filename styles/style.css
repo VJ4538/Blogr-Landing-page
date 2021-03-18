@@ -1,0 +1,151 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.container-fuild {
+  padding: 5% 12%;
+}
+
+.btn-groups .btn {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 600;
+  width: 130px;
+  line-height: 1.8;
+}
+
+#header {
+  background-image: url("/images/bg-pattern-intro.svg");
+  background-color: #ff525d;
+  background-position: center;
+  height: 700px;
+  color: white;
+  border-bottom-left-radius: 150px;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 600;
+}
+
+.nav_bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav_bar_ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0;
+}
+
+.nav_bar_ul .logo {
+  margin-right: 30px;
+}
+
+.li-items {
+  position: relative;
+  bottom: -10px;
+  list-style: none;
+  margin: 0 30px;
+}
+
+.li-items .li-a {
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.li-items .li-a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.dropdowns {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  padding-left: 0;
+  border-radius: 10px;
+  top: 40px;
+  padding: 15px 0;
+}
+
+.dropdowns li {
+  list-style: none;
+}
+
+.dropdowns li a {
+  text-decoration: none;
+  color: #4b5862;
+  line-height: 2rem;
+  margin: 5px 20px;
+}
+
+.dropdowns li a:hover {
+  color: black;
+  border-bottom: 2px solid #000;
+}
+
+.fas {
+  margin-left: 10px;
+}
+
+.rotated {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.btn-groups {
+  margin: auto 0;
+}
+
+.btn-groups .btn {
+  margin: 0 15px;
+  border-radius: 25px;
+}
+
+.btn-groups .btn-no-outline {
+  color: #fff;
+  border: 1.5px solid #fff;
+}
+
+.btn-groups .btn-no-outline:hover {
+  background-color: #fff;
+  color: #ff525d;
+}
+
+.btn-groups .btn-white {
+  background-color: #fff;
+  color: #ff525d;
+}
+
+.btn-groups .btn-white:hover {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.header-content {
+  text-align: center;
+  margin: 8% 0;
+}
+
+.header-content h1 {
+  margin: 1% 0;
+  font-size: 4rem;
+}
+
+.header-content h3 {
+  margin: 1% 0;
+  font-size: 1.5rem;
+  color: #c8c8cb;
+}
+/*# sourceMappingURL=style.css.map */
