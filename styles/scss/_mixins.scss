@@ -1,0 +1,9 @@
+//mixin
+@mixin text-dec($color){
+    text-decoration: none; 
+    color: $color; 
+    &:hover{
+        border-bottom:1px solid $color;
+    }
+}
+
