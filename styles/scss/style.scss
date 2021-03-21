@@ -65,6 +65,9 @@
     @include mixins.dropdown(colors.$white,10px,8%);
     width:80%;
     z-index: 23;
+    left:100%;
+    position:fixed;
+    top:100px; 
     .m-dropdown-nav{
         margin:20px 0;
         padding:0 40%;
@@ -244,6 +247,7 @@
             display:block;      
         }
         .m-dropdown{
+            left:10%;
             z-index: 99;
             border:1px solid colors.$gray;
             .drop-title{
