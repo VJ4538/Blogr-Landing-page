@@ -1,4 +1,54 @@
 //mixin
+
+//section preset
+@mixin section-set($txtcolor,$bcolor){
+    font-family: 'Overpass', sans-serif;
+    font-weight:600;
+    color:$txtcolor;
+    background-color:$bcolor;
+}
+
+//li a preset
+@mixin nav-li-a($acolor, $hcolor){
+        list-style: none;
+        a{
+            text-decoration: none; 
+            color: $acolor; 
+            &:hover{
+            color:$hcolor;
+            border-bottom:1px solid $hcolor;
+            transition: 0.3s;
+         }
+      }
+
+}
+//dropdown preset
+@mixin dropdown($bcolor,$radius,$top){
+    display: none;
+    position:absolute;  
+    background-color: $bcolor;  
+    border-radius: $radius;
+    top:$top;
+}
+
+//flex and justify-content preset
+@mixin flex($content){
+    display:flex;
+    justify-content: $content;
+}
+
+//btn preset
+@mixin btn-default($color, $bcolor,$hcolor){
+    color:$color;
+    background-color:$bcolor;
+    border:1px solid $color;
+    &:hover{
+        color:$hcolor;
+        background-color:$color;
+    }
+}
+
+//text-decoration
 @mixin text-dec($color){
     text-decoration: none; 
     color: $color; 
@@ -7,3 +57,11 @@
     }
 }
 
+//text size color
+@mixin text($color,$weight,$size,$top,$bot){
+    color:$color;
+    margin: $top $bot;
+    font-size:$size;
+    font-weight:$weight;
+
+}

@@ -20,5 +20,6 @@ README.md
 style-guide.md
 /design
 /images
-
 /node_modules
+package-lock.json
+package.json

@@ -1,15 +1,19 @@
 //scss extends
+
 %btnText{
     font-family: 'Overpass', sans-serif;
     font-weight:600;
     width:130px;
     line-height: 1.6;
 }
-%listset{
-        list-style: none;
-        margin:15px 0;
-}
 
 %dropdown{
-    display:none;
+    display: none;
+    position:absolute;  
+    background-color: white;  
+}
+
+%font-family{
+    font-family: 'Overpass', sans-serif;
+    font-weight:600;
 }

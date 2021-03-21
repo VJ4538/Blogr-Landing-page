@@ -19,6 +19,8 @@ $(document).ready(function(){
         $('.m-dropdown').slideToggle(300);
         $('.bar-open').toggle(100);
         $('.bar-close').toggle(100);
+        $('.drop').slideUp(100);
+        //remove the rotation
       })
 
       
