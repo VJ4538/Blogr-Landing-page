@@ -93,7 +93,6 @@
   width: 80%;
   z-index: 23;
   left: 100%;
-  position: fixed;
   top: 100px;
 }
 .m-dropdown .m-dropdown-nav {
@@ -275,18 +274,18 @@
   position: absolute;
 }
 
-#content3 {
+#body-content2 {
   font-family: "Overpass", sans-serif;
   font-weight: 600;
   color: #8f9da8;
   background-color: #fff;
 }
 
-.content3-row {
+.body-content2-row {
   padding-top: 5%;
 }
 
-#footer1 {
+#footer {
   font-family: "Overpass", sans-serif;
   font-weight: 600;
   color: #c8c8cb;
@@ -429,7 +428,7 @@
     margin-top: 50%;
   }
 
-  #footer1 {
+  #footer {
     border-radius: unset;
   }
 

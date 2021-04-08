@@ -66,7 +66,6 @@
     width:80%;
     z-index: 23;
     left:100%;
-    position:fixed;
     top:100px; 
     .m-dropdown-nav{
         margin:20px 0;
@@ -198,16 +197,15 @@
 
 //content
 //most styles in intro content section
-#content3{
+#body-content2{
     @include mixins.section-set(colors.$secondary-text, colors.$white-background);
 }
-.content3-row{
+.body-content2-row{
     padding-top:5%;
 }
 
 //footer
-
-#footer1{
+#footer{
     @include mixins.section-set(colors.$footer-text,colors.$footer-background);
     border-top-right-radius: 90px;
 }
@@ -341,7 +339,7 @@
         }
     }
     //footer
-    #footer1{
+    #footer{
         border-radius: unset;
     }
     .footer-nav{
