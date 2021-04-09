@@ -1,8 +1,2 @@
-/design
-/images
 /node_modules
 .DS_Store
-README.md
-buglog
-package.json
-package-lock.json
