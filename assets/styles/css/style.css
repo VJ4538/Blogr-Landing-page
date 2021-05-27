@@ -16,6 +16,28 @@
   padding: 5% 13%;
 }
 
+section {
+  transition: transform 1s, opacity 1s;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1% 5%;
+  padding-top: 2%;
+  z-index: 99;
+  opacity: 0.9;
+  background-color: #ff525d;
+}
+
+.fade-section {
+  opacity: 0;
+  transform: translateY(10rem);
+  transition: 0.3s;
+}
+
 .btn-groups {
   margin: auto 0;
   display: flex;
@@ -199,6 +221,7 @@
   font-weight: 600;
   color: #8f9da8;
   background-color: #fff;
+  margin-top: 5%;
 }
 
 .content-container {
